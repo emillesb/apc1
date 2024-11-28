@@ -100,7 +100,7 @@ struct aluno_t alunos[15];
 
         media[contador] =  alunos[contador].nota1 +  alunos[contador].nota2;
 
-         printf("%i \n ", contador);
+         printf("%.2f", media[contador]);
          contador++;
          printf(" Aluno cadastrado com sucesso. \n");
         } else{
@@ -130,7 +130,7 @@ struct aluno_t alunos[15];
         break;
         case 3:
             printf("O programa a seguir tem a função de cadastrar, matriculas, nomes e notas dos alunos,\n");
-            printf("Basta apenas selecionar a opção desejada.\n");
+            printf("Basta apenas selecionar a opcao desejada.\n");
 
         break;
          case 4:
